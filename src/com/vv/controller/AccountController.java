@@ -12,5 +12,9 @@ public class AccountController {
 	public List<String> getAccountList() {
 		return null;
 	}
+	
+	public String getCustomerHome() {
+		return "/customer/customer_home";
+	}
 
 }
