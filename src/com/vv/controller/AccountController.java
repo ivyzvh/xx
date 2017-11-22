@@ -15,6 +15,7 @@ public class AccountController {
 	
 	public String getCustomerHome() {
 		return "/customer/customer_home";
+		
 	}
 
 }
