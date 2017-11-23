@@ -29,5 +29,10 @@ public class AccountController {
 		return a + b;
 	}
 	
+	public static Integer xxx() {
+		return null;
+	}
 	
 }
+
+
