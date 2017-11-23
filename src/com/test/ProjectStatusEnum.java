@@ -1,7 +1,15 @@
 package com.test;
 
-public class ProjectStatusEnum {
+public enum ProjectStatusEnum {
+	VALID(0, "Valid", "有效"), 
+	INVALID(1, "Invalid", "无效");
 
+	private ProjectStatusEnum(int code, String name, String desc) {
+		this.code = code;
+		this.name = name;
+		this.desc = desc;
+	}
+	
 	private int code;
 	private String name;
 	private String desc;
@@ -29,5 +37,11 @@ public class ProjectStatusEnum {
 	public void setDesc(String desc) {
 		this.desc = desc;
 	}
+	
+	
 
+	public String toString() {
+		return this.code + ", " + this.name + ", " + this.desc;
+	}
+	
 }
