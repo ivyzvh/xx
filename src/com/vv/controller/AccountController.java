@@ -17,7 +17,8 @@ public class AccountController {
 		return "/customer/customer_home";
 	}
 	
-	///////10.25
-	// 10.42
+	public int add(int a, int b) {
+		return a + b;
+	}
 
 }
