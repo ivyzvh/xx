@@ -6,4 +6,10 @@ public class Demo {
 		System.out.println("Demo");
 	}
 
+	public static void print(Object o) {
+		System.out.println(o);
+	}
+	
+	
+	
 }
