@@ -5,7 +5,7 @@ public class Abc {
 	private String name;
 	private String address;
 	private double salary;
-	
+
 	public double getSalary() {
 		return salary;
 	}
@@ -38,8 +38,5 @@ public class Abc {
 		this.age = age;
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	}
 
 }
