@@ -4,7 +4,16 @@ public class Abc {
 	private int age;
 	private String name;
 	private String address;
-    ///
+	private double salary;
+	
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
 	public String getAddress() {
 		return address;
 	}
