@@ -1,13 +1,18 @@
 package com.test;
 
+/**
+ * 
+ * @author xxxx
+ *
+ */
 public class Test {
 
 	public static void main(String[] args) {
-		out("master-rene");
+		out("master-rene--develop");
 	}
 	
-	public static void out(Object s) {
-		System.out.println(s);
+	public static void out(Object o) {
+		System.out.println(o);
 	}
 	
 	public double getSalary() {
@@ -19,4 +24,12 @@ public class Test {
 		System.out.println(x);
 	}
 
+=======
+	
+	public void out() {
+		System.out.println("dev");
+	}
+	
+	//
+>>>>>>> refs/heads/develop
 }
