@@ -24,12 +24,10 @@ public class Test {
 		System.out.println(x);
 	}
 
-=======
 	
 	public void out() {
 		System.out.println("dev");
 	}
 	
 	//
->>>>>>> refs/heads/develop
 }
