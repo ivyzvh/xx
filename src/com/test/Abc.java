@@ -1,8 +1,8 @@
 package com.test;
 
 public class Abc {
-	private String name;
 	private int age;
+	private String name;
 	private String address;
     ///
 	public String getAddress() {
