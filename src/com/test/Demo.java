@@ -10,7 +10,7 @@ public class Demo {
 		System.out.println(o);
 	}
 
-	
+	String age;
 	
 	
 }
