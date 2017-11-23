@@ -1,12 +1,16 @@
 package com.test;
 
 public class Abc {
-
-	private String name;
 	private int age;
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	private String name;
+	private String address;
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 	public String getName() {
@@ -24,7 +28,9 @@ public class Abc {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
-	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
 
 }
